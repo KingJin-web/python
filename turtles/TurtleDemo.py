@@ -3,41 +3,41 @@
 # @Copyright	：http://www.xuetang9.com
 # @Version		: 1.0
 
-import turtles
+import turtle
 
-turtles.width(2)
-turtles.fillcolor("violet")
-turtles.circle(2)
+turtle.width(2)
+turtle.fillcolor("violet")
+turtle.circle(2)
 
-turtles.width(10)	#增加画笔的宽度
+turtle.width(10)	#增加画笔的宽度
 
-turtles.color("blue")
-turtles.circle(50)
+turtle.color("blue")
+turtle.circle(50)
 
-turtles.color("black")
-turtles.penup()
-turtles.goto(120, 0)
-turtles.pendown()
-turtles.circle(50)
+turtle.color("black")
+turtle.penup()
+turtle.goto(120, 0)
+turtle.pendown()
+turtle.circle(50)
 
-turtles.color("red")
-turtles.penup()
-turtles.goto(240, 0)
-turtles.pendown()
-turtles.circle(50)
+turtle.color("red")
+turtle.penup()
+turtle.goto(240, 0)
+turtle.pendown()
+turtle.circle(50)
 
-turtles.color("yellow")
-turtles.penup()
-turtles.goto(60, -50)
-turtles.pendown()
-turtles.circle(50)
+turtle.color("yellow")
+turtle.penup()
+turtle.goto(60, -50)
+turtle.pendown()
+turtle.circle(50)
 
-turtles.color("green")
-turtles.penup()
-turtles.goto(180, -50)
-turtles.pendown()
-turtles.circle(50)
+turtle.color("green")
+turtle.penup()
+turtle.goto(180, -50)
+turtle.pendown()
+turtle.circle(50)
 
 # 点击窗口关闭
-window = turtles.Screen()
+window = turtle.Screen()
 window.exitonclick()

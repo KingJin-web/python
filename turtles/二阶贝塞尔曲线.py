@@ -5,7 +5,7 @@
 # @版本信息：0.0.1
 
 from MagicFunctions import *
-import turtles
+import turtle
 import time
 
 
@@ -22,12 +22,12 @@ x3, y3 = 140, 0
 speed = 1           # 移动速度
 show_count = 20     # 函数的取样次数
 
-turtles.setup(500, 400, 0, 0)
-turtles.pensize(1)
-turtles.speed(1)
-turtles.penup()
-turtles.goto(x1, y1)
-turtles.pendown()
+turtle.setup(500, 400, 0, 0)
+turtle.pensize(1)
+turtle.speed(1)
+turtle.penup()
+turtle.goto(x1, y1)
+turtle.pendown()
 for i in range(0, show_count + 1):
     # curr_x = Bezier_2(x1, x2, x3, i / show_count)
     # curr_y = Bezier_2(y1, y2, y3, i / show_count)
@@ -43,6 +43,6 @@ for i in range(0, show_count + 1):
                 i / show_count
     )
 
-    turtles.goto(curr_x, curr_y)
+    turtle.goto(curr_x, curr_y)
 
-turtles.done()
+turtle.done()
