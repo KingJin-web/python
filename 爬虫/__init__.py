@@ -5,7 +5,7 @@
 # @版本信息：0.0.1
 import time
 import requests
-from fake_useragent import UserAgent
+
 from lxml import html
 
 
